@@ -2,6 +2,9 @@
 name: subfan
 description: >-
   Run an ensemble fan-out — spawn N independent subagents at the SAME target, ground each against reality, then synthesize the convergent truth into condensed learnings. Use this whenever a task is high-stakes or uncertain enough that a single one-shot attempt is likely wrong: implementing a tricky feature where the approach isn't obvious, verifying whether a claim/bug/decision is actually true, or researching a question that benefits from multiple angles. Trigger on phrases like "fan out", "ensemble", "multiple approaches", "have a few agents try", "get N opinions", "verify this properly", "is this actually right", "research this deeply", "spike a few options", or any time the user wants confidence rather than a fast first guess. Prefer this over a single subagent when correctness matters more than speed. NOT for decomposition (splitting one job into disjoint subtasks) — that's a different pattern; see the gate below.
+license: MIT
+metadata:
+  version: "0.1.0"
 ---
 
 # Subfan — ensemble fan-out / fan-in

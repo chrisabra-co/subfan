@@ -47,7 +47,15 @@ The method targets the universally-available subagent/Task tool, so it runs anyw
     └── research.md     # parallel-research playbook
 ```
 
-Drop the folder into your skills directory (e.g. `~/.claude/skills/subfan/`), or install via [skills.sh](https://skills.sh).
+Install with the [skills.sh](https://skills.sh) CLI:
+
+```
+npx skills add chrisabra-co/subfan
+```
+
+Claude Code picks up the `SKILL.md` automatically on the next session. Or just drop the folder into your skills directory (e.g. `~/.claude/skills/subfan/`).
+
+[![skills.sh](https://skills.sh/b/chrisabra-co/subfan)](https://skills.sh/chrisabra-co/subfan)
 
 ## License
 
